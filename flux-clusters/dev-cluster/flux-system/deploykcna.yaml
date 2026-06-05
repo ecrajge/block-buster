@@ -17,7 +17,7 @@ spec:
         app: deploykcna
     spec:
       containers:
-      - image: busybox
-        name: busybox
+      - image: nginx:alpine
+        name: nginx
         resources: {}
 status: {}
