@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: deploykcna
+  name: deploykcna
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: deploykcna
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: deploykcna
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        resources: {}
+status: {}
