@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - image: busybox
-        name: nginx
+        name: busybox
         resources: {}
 status: {}
