@@ -17,7 +17,7 @@ spec:
         app: deploykcna
     spec:
       containers:
-      - image: nginx
+      - image: busybox
         name: nginx
         resources: {}
 status: {}
