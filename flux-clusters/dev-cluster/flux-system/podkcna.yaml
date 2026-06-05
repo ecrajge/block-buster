@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: pod
+  name: podkcna
+  namespace: wave2
+spec:
+  containers:
+  - image: nginx
+    name: nginx
